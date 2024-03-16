@@ -151,6 +151,9 @@ body {
 	display: flex;
 	background-color: #6257fe;
 }
+.social-header__item{
+	transition: all 0.3s ease 0s;
+}
 .social-header__item:not(:last-child) {
 	margin: 0px 25px 0px 0px;
 }
@@ -453,6 +456,10 @@ body {
 .portfolio__item {
 	position: relative;
 	padding: 0px 0px 135% 0px;
+	transition: all 0.3s ease 0s;
+}
+.portfolio__item:hover{
+	transform: scale(0.9); 
 }
 .portfolio__item img {
 	position: absolute;
